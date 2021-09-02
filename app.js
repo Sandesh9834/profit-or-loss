@@ -8,7 +8,7 @@ function profitloss(priceInitial, totalStocks, priceCurrent)
 {
       var initialStockValue = Number(priceInitial*totalStocks);
       var finalStockValue = Number(priceCurrent*totalStocks);
-      var stockPercent = Number(Math.abs((finalStockValue/initialStockValue)*100-100));
+      var stockPercent = Number(Math.abs((finalStockValue/initialStockValue)*100-100)).toFixed(2);
       var absoluteValue = Number(Math.abs(finalStockValue-initialStockValue));
       
       if(finalStockValue > initialStockValue)

@@ -5,24 +5,42 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Stock Profit & Loss Calculator</title>
+      <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-      <!-- <div>Stock Calculator</div> -->
-      <h2>Stock Calculator</h2>
-      <p>
-            <label>Initial Stock Price:</label>
-      </p>
-      <input type="number" placeholder="Enter initial price of stock" id="stock-price">
-      <p>
-            <label>Total Stocks Bought:</label>
-      </p>
-      <input type="number" placeholder="Enter number of stocks bought" id="stocks-bought">
-      <p>
-            <label>Current Price:</label>
-      </p>
-      <input type="number" placeholder="Enter current stock price" id="current-price">
-      <button id="btn-check">Check Profit/Loss</button>
-      <p id="output"></p>
+      <header>
+            <h2>Profit or Loss Calculator</h2>
+      </header>
+      <main>
+            <label class="input-label"><p>Initial Stock Price:</p></label>
+            <input class="input-text" type="number" placeholder="Enter initial price of stock" id="stock-price">
+            <label class="input-label"><p>Total Stocks Bought:</p></label>
+            <input class="input-text" type="number" placeholder="Enter number of stocks bought" id="stocks-bought">
+            <label class="input-label"><p>Current Price:</p></label>
+            <input class="input-text" type="number" placeholder="Enter current stock price" id="current-price">
+            <button id="btn-check">Check Profit/Loss</button>
+            <p id="output"></p>
+      </main>
+      <footer>
+            <p>&copy; | 2021 | Sandesh Shinde</p>
+            <ul>
+                  <li>
+                        <a class="links" href="https://github.com/Sandesh9834/" target="_blank">
+                          <img src="/images/github.svg" alt="github" />
+                        </a>
+                  </li>
+                  <li>
+                        <a class="links" href="https://bit.ly/Sandesh_Shinde#6570" target="_blank">
+                          <img src="/images/discord.svg" alt="discord" />
+                        </a>
+                  </li>
+                  <li>
+                        <a class="links" href="https://twitter.com/Shinde_Sandesh_" target="_blank">
+                          <img src="/images/twitter.svg" alt="twitter" />
+                        </a>
+                  </li>
+            </ul>
+      </footer>
 
       <script src="/app.js" type="text/javascript"></script>
 </body>

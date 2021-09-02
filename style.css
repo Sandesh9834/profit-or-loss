@@ -1,0 +1,114 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --primary-color: #37117a;
+    }
+    
+    body {
+      font-family: "Work Sans", sans-serif;
+      text-align: center;
+      background-color: #d0bef0;
+    }
+        
+    header {
+      padding: 1rem;
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+    
+    header h2 {
+      text-align: center;
+    }
+    
+    main {
+      margin: 0 0 7rem;
+      display: block;
+    }
+    
+    main h3 {
+      margin: 1rem;
+    }
+    
+    .input-label {
+      font-size: larger;
+      color: var(--primary-color);
+      width: 256px;
+    }
+    
+    .input-label p {
+      font-size: larger;
+      margin: 0.5rem;
+      font-weight: 600;
+    }
+    
+    .input-text {
+      font-size: large;
+      outline: #fff;
+      padding: 0.6rem 1rem;
+      margin: 1rem;
+      border: 2px solid var(--primary-color);
+      border-radius: 0.5rem;
+      width: 100%;
+      max-width: 320px;
+    }
+   
+    #btn-check {
+      background: var(--primary-color);
+      border: none;
+      padding: 0.7rem 1rem;
+      border-radius: 0.5rem;
+      font-size: large;
+      cursor: pointer;
+      outline: #fff;
+      margin: 1rem auto;
+      display: block;
+      background-color: white; 
+      color: #37117a;
+      border: solid #37117a;
+    }
+
+    #btn-check:hover {
+      background-color: #37117a;
+      color: white;
+    }
+    
+    #btn-check:focus {
+      background-color: #37117a;
+      color: white;
+    }
+
+    #output {
+      font-size: x-large;
+      margin: 1rem;
+      color: #37117a;
+      font-weight: 600;
+    }
+   
+    footer {
+      text-align: center;
+    }
+    
+    footer p {
+      font-size: large;
+      text-align: center;
+    }
+    
+    .footer-list {
+      margin: 1rem;
+    }
+    
+    a,
+    img,
+    li {
+      display: inline;
+      color: #fff;
+    }
+    
+    img {
+      width: 40px;
+      padding: 1rem 0.2rem;
+    }
