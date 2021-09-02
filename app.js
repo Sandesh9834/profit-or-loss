@@ -8,14 +8,20 @@ function profitloss(priceInitial, totalStocks, priceCurrent)
 {
       var initialStockValue = Number(priceInitial*totalStocks);
       var finalStockValue = Number(priceCurrent*totalStocks);
-
+      var stockPercent = Number(Math.abs((finalStockValue/initialStockValue)*100-100));
+      var absoluteValue = Number(Math.abs(finalStockValue-initialStockValue));
+      
       if(finalStockValue > initialStockValue)
       {
-            displayMessage.innerText = "Hey! You are in PROFIT";
+            displayMessage.innerText = `🥳🤑Hey! You are in PROFIT by ${stockPercent}% and absolute profit is ${absoluteValue} 📈`;
+      }
+      else if(finalStockValue === initialStockValue)
+      {
+            displayMessage.innerText = `😑Stock Price is same. No profit no loss `;
       }
       else
       {
-            displayMessage.innerText = "Sorry! You are in LOSS";
+            displayMessage.innerText = `😞Sorry! You are in LOSS by ${stockPercent}% and absolute loss is ${absoluteValue} 📉`;
       }
 }
 
@@ -31,13 +37,8 @@ function onClick()
       }
       else
       {
-            displayMessage.innerText = "Enter all the needed values";
+            displayMessage.innerText = "Enter all the needed values ⚠️";
       }
-
-      // console.log(`Initial Price of stock is ${priceInitial} and type is ` + typeof(priceInitial));
-      // console.log(`Bought stock is ${totalStocks} and type is `+ typeof(totalStocks));
-      // console.log(`Current Price of stock is ${priceCurrent} and type is ` + typeof(priceCurrent));
 }
-
 
 checkResult.addEventListener("click", onClick)
