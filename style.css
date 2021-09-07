@@ -5,13 +5,13 @@
     }
     
     :root {
-      --primary-color: #37117a;
+      --primary-color: #14a79f;
     }
     
     body {
       font-family: "Work Sans", sans-serif;
       text-align: center;
-      background-color: #d0bef0;
+      /* background-color: rgba(53, 255, 3, 0.733); */
     }
         
     header {
@@ -67,17 +67,17 @@
       margin: 1rem auto;
       display: block;
       background-color: white; 
-      color: #37117a;
-      border: solid #37117a;
+      color: #14a79f;
+      border: solid #14a79f;
     }
 
     #btn-check:hover {
-      background-color: #37117a;
+      background-color: #14a79f;
       color: white;
     }
     
     #btn-check:focus {
-      background-color: #37117a;
+      background-color: #14a79f;
       color: white;
     }
 
@@ -90,6 +90,8 @@
    
     footer {
       text-align: center;
+      background-color: #118882;
+      color: #fff;
     }
     
     footer p {
