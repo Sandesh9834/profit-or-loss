@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-1. [Overview](https://github.com/Sandesh9834/profit-or-loss/new/main?readme=1#overview)
-    - [Screenshot](https://github.com/Sandesh9834/profit-or-loss/new/main?readme=1#screenshots)
-    - [Links](https://github.com/Sandesh9834/profit-or-loss/new/main?readme=1#links)
+1. [Overview](https://github.com/Sandesh9834/profit-or-loss/new/main#overview)
+    - [Screenshot](https://github.com/Sandesh9834/profit-or-loss/new/main#screenshots)
+    - [Links](https://github.com/Sandesh9834/profit-or-loss/new/main#links)
     
-2. [Built using](https://github.com/Sandesh9834/profit-or-loss/new/main?readme=1#built-using)
+2. [Built using](https://github.com/Sandesh9834/profit-or-loss/new/main#built-using)
 
-3. [Author](https://github.com/Sandesh9834/profit-or-loss/new/main?readme=1#author)
+3. [Author](https://github.com/Sandesh9834/profit-or-loss/new/main#author)
 
 ### Overview
 
