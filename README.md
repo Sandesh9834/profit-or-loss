@@ -4,7 +4,7 @@
 
 1. [Overview](https://github.com/Sandesh9834/profit-or-loss/#overview)
     - [Screenshot](https://github.com/Sandesh9834/profit-or-loss/#screenshots)
-    - [Links](https://github.com/Sandesh9834/profit-or-loss/new/main#links)
+    - [Links](https://github.com/Sandesh9834/profit-or-loss/#links)
     
 2. [Built using](https://github.com/Sandesh9834/profit-or-loss/#built-using)
 
