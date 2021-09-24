@@ -31,13 +31,13 @@ function onClick()
       var totalStocks = Number(stocksBought.value);
       var priceCurrent = Number(currentPrice.value);
       
-      if(priceInitial && totalStocks && priceCurrent)
+      if(priceInitial && totalStocks && priceCurrent && priceInitial> 0 && totalStocks>0 && priceCurrent>0 )
       {
             profitloss(priceInitial, totalStocks, priceCurrent)
       }
       else
       {
-            displayMessage.innerText = "Enter all the needed values ⚠️";
+            displayMessage.innerText = "Enter all the needed and valid values ⚠️";
       }
 }
 
